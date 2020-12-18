@@ -13,7 +13,7 @@
                             <input type="submit" id="sumit" value="Sing in" />
                         </form>
                     </div>
-                    <a id="sing_up" href="http://localhost:8081/register">Sign up</a>
+                    <a id="sing_up" href="https://japichip-app.herokuapp.com/register">Sign up</a>
                 </div>
             </div>
             <a id="login_contacts" href="/html/">Contact Us</a>
