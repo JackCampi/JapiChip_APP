@@ -128,6 +128,9 @@ body{
     justify-content: space-evenly;
     /*background-color: blue;*/
 }
+.welcome h1{
+    color: #000;
+}
 .modules{
     width: 100%;
     height: 15vh;
@@ -152,6 +155,9 @@ body{
     height: 45vh;
     width: 40%;
 }
+.expiration h1{
+    color: #000;
+}
 .expiration-item{
     /*background-color: azure;*/
     margin-bottom: 10px;
@@ -174,6 +180,9 @@ body{
     /*background-color: chocolate;*/
     height: 45vh;
     width: 40%;
+}
+.documents h1{
+    color: #000;
 }
 .docs-container{
     /*background-color: fuchsia;*/
