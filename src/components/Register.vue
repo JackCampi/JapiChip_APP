@@ -150,19 +150,10 @@ export default {
         }
 
         await axios.post('https://japichip-api.herokuapp.com/new_company/', company_dic)
-          .then((response) => {
-            
-          }).catch((error) => {
-            alert(error)
-            return})
+        
         await axios.post('https://japichip-api.herokuapp.com/new_user/', user_dic)
-          .then((response) => {
-            
-          }).catch((error) => {
-            alert(error)
-            return})
-
-          this.$router.push("home/" + this.user_email)
+          
+        this.$router.push("home/" + this.user_email)
 
       } else {
         alert("Faltan campos por llenar.")
